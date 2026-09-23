@@ -40,6 +40,16 @@ Sie ist für die Git-Übungsaufgabe gedacht, in der ein `dev`-Branch erstellt,
    git branch -d dev
    ```
 
+## Änderungsprotokoll
+
+Änderungen in der `index.html`:
+
+1. Eigetragener Name, Vorname, Kurs und E-Mail
+
+2. Ergänzung bzw. Überarbeitung des "Über Mich" Bereich
+
+3. Eintragung dreier Interessen
+
 ## Hinweise
 - Ein Fast-Forward gelingt nur, wenn `main` **keine** neuen Commits seit dem Abzweigen erhalten hat.
 - Prüfe die Historie und Branch-Situation:
