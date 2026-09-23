@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Steckbrief – Vorlage</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 2rem; line-height: 1.5; }
+    .card { max-width: 720px; border: 1px solid #ddd; border-radius: 12px; padding: 1.5rem; }
+    .row { display: flex; gap: 1rem; align-items: center; }
+    img { width: 128px; height: 128px; object-fit: cover; border-radius: 50%; border: 1px solid #ccc; }
+    h1 { margin: 0 0 0.25rem 0; }
+    small { color: #666; }
+    ul { margin-top: 0.5rem; }
+    .section { margin-top: 1rem; }
+    .muted { color: #666; }
+    code { background: #f6f8fa; padding: 0.1rem 0.25rem; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="row">
+      <img src="assets/profil.jpg" alt="Profilbild (Platzhalter)">
+      <div>
+        <h1 id="name">Vorname Nachname</h1>
+        <small id="klasse">Klasse/Kurs: 00A</small>
+      </div>
+    </div>
+    <div class="section">
+      <h2>Über mich</h2>
+      <p id="ueber-mich">Kurzbeschreibung in 2–3 Sätzen. Wer bin ich, was mache ich gern?</p>
+    </div>
+    <div class="section">
+      <h2>Interessen</h2>
+      <ul id="interessen">
+        <li>Beispiel 1</li>
+        <li>Beispiel 2</li>
+        <li>Beispiel 3</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>Kontakt</h2>
+      <p>E-Mail: <a id="email" href="mailto:vorname.nachname@example.com">vorname.nachname@example.com</a></p>
+    </div>
+    <div class="section muted">
+      <p>Tipp: Öffne diese Datei lokal im Browser (Doppelklick) oder mit Live-Server.</p>
+    </div>
+  </div>
+</body>
+</html>
